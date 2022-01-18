@@ -1,7 +1,7 @@
-!pip3 install pytube
 import pytube  
 from pytube import YouTube 
 import os 
+os.system('pip3 install pytube')
 video_url = input("Enter the link here : ")   
 #resolution = input("Enter the resolution : ")
 youtube = pytube.YouTube(video_url)  
